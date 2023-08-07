@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './components/Layout.js';  
+import Resume from './components/Resume.js';
+import Projects from './components/Projects.js';
+import Profile from './components/Profile.js';
 
 function App() {
+
+  // const [show,setshow]=useState(false)
+
+  // function myfunhome1(){
+  //   setshow(!show)
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+        <Route index element={<Profile />} /> 
+        <Route path="Resume"  element={<Resume />} />
+        <Route path="Projects" element={<Projects />} />
+        </Route>
+      </Routes>
+      </BrowserRouter>
+
     </div>
   );
-}
+};
+
 
 export default App;
