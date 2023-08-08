@@ -3,6 +3,7 @@ import Layout from './components/Layout.js';
 import Resume from './components/Resume.js';
 import Projects from './components/Projects.js';
 import Profile from './components/Profile.js';
+import Gallery from "./components/Gallery.js";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route index element={<Profile />} /> 
         <Route path="Resume"  element={<Resume />} />
         <Route path="Projects" element={<Projects />} />
+        <Route path="Gallery" element={<Gallery />} />
         </Route>
       </Routes>
       </BrowserRouter>
