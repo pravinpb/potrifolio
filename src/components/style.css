@@ -1,6 +1,10 @@
+body{
+    transition-delay: .5s;
+}
+
 .navbar{
     margin: 0px 0px;
-    background-color: aquamarine;
+    background-color: rgba(127,225,212,0.7);
     height: 4rem;
     width: 100%;
     display: flex;
@@ -10,6 +14,8 @@
     padding-bottom: 10px;
     position: fixed;
     top: 0;
+    
+    backdrop-filter: blur(10px);
     
 }
 

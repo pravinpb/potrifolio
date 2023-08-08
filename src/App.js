@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Layout from './components/Layout.js';  
 import Resume from './components/Resume.js';
 import Projects from './components/Projects.js';
@@ -6,6 +6,7 @@ import Profile from './components/Profile.js';
 import Gallery from "./components/Gallery.js";
 
 function App() {
+  const location = useLocation
 
   // const [show,setshow]=useState(false)
 
