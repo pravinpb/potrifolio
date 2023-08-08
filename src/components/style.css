@@ -4,7 +4,7 @@ body{
 
 .navbar{
     margin: 0px 0px;
-    background-color: rgba(127,225,212,0.7);
+    background-color: rgba(127,225,212,0.6);
     height: 4rem;
     width: 100%;
     display: flex;
@@ -16,6 +16,10 @@ body{
     top: 0;
     
     backdrop-filter: blur(10px);
+    
+}
+
+.button{
     
 }
 

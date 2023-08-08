@@ -12,13 +12,13 @@ const Layout = () => {
           </div>
           <div className="menubar">
             <div>
-              <Link to="/gallery"><button type="button" className="buttons">Gallery</button></Link>
+              <Link to="/gallery"><a href="s" className="button">Gallery</a></Link>
             </div>
             <div>
-              <Link to="/projects"><button type="button" className="buttons">Projects</button></Link>
+              <Link to="/projects"><button type="button" className="button">Projects</button></Link>
             </div>
             <div>
-              <Link to="/resume"><button type="button" className="buttons">Resume</button></Link>
+              <Link to="/resume"><button type="button" className="button">Resume</button></Link>
             </div>
          </div>
 
