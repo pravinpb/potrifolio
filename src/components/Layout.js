@@ -12,7 +12,7 @@ const Layout = () => {
           </div>
           <div className="menubar">
             <div>
-              <Link to="/gallery"><a href="s" className="button">Gallery</a></Link>
+              <Link to="/gallery"><button type="button" className="button">Gallery</button></Link>
             </div>
             <div>
               <Link to="/projects"><button type="button" className="button">Projects</button></Link>

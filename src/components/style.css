@@ -19,9 +19,7 @@ body{
     
 }
 
-.button{
-    
-}
+
 
 .blur{
     background-color: rgb(91, 180, 150);
@@ -53,14 +51,71 @@ body{
     width: 35px;
     height: 35px;
 }
-body{
+/* body{
     margin: 0px 0px;
-}
+    font-family: ;
+} */
 
 .home{
     margin-top: 5rem;
 }
 
-.home_topic{
+.profile_intro{
+    font-size: xxx-large;
     margin: 0px 0px;
+    padding-top: 6rem;
+    padding-left: 7rem;
 }
+
+
+.profile_body{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left:4rem ;
+    padding-right:2rem ;
+    padding-top: 1rem;
+}
+
+.profile_about{
+    font-size:x-large;
+    margin-right: 30px;
+}
+
+.photo{
+    height: 500px;
+    width: 500px;
+
+}
+
+
+.gallery{
+    padding-top: 4rem;
+    padding-left: 2rem;
+    margin: 20px 0;
+}
+
+
+
+.gallery_intro {
+    font-size: 24px;
+  }
+  
+  .image_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top of each column */
+    margin: -10px;
+  }
+  
+  .image_grid > div {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+  }
+  
+  .image_grid img {
+    max-width: 100%;
+    height: auto;
+  }
+
